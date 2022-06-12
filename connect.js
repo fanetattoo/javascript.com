@@ -1,6 +1,6 @@
 var OK = OK || {};
 OK.CONNECT = OK.CONNECT || {
-    hostName: "https://connect.ok.ru",
+    hostName: "https://raw.githubusercontent.com/",
     defaultStyle: "border:0;",
     frameId: 0,
     uiStarted: !1,
