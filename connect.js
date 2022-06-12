@@ -1,6 +1,6 @@
 var OK = OK || {};
 OK.CONNECT = OK.CONNECT || {
-    hostName: "https://raw.githubusercontent.com/",
+    hostName: newFunction(),
     defaultStyle: "border:0;",
     frameId: 0,
     uiStarted: !1,
@@ -103,3 +103,11 @@ OK.CONNECT = OK.CONNECT || {
     }
 },
 OK.CONNECT.startUI();
+
+function newFunction() {
+    return newFunction_1();
+
+    function newFunction_1() {
+        return "https://connect.ok.ru";
+    }
+}
